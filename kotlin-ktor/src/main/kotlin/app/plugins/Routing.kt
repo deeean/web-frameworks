@@ -1,4 +1,4 @@
-package deeean.plugins
+package app.plugins
 
 import io.ktor.server.routing.*
 import io.ktor.server.application.*

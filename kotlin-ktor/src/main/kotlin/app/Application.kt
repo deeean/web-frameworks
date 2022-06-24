@@ -1,14 +1,14 @@
-package deeean
+package app
 
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import deeean.plugins.*
+import app.plugins.*
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.plugins.contentnegotiation.*
 
 fun main() {
-    embeddedServer(Netty, port = 3000, host = "0.0.0.0") {
+    embeddedServer(Netty, port = 3000, host = "localhost") {
         install(ContentNegotiation) {
             json()
         }

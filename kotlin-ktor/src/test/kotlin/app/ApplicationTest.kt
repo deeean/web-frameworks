@@ -1,4 +1,4 @@
-package deeean
+package app
 
 import io.ktor.server.routing.*
 import io.ktor.http.*
@@ -7,7 +7,8 @@ import io.ktor.server.response.*
 import io.ktor.server.request.*
 import kotlin.test.*
 import io.ktor.server.testing.*
-import deeean.plugins.*
+import app.plugins.*
 
 class ApplicationTest {
+
 }

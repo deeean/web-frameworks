@@ -8,7 +8,6 @@ import (
 
 func main() {
 	e := echo.New()
-	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
 	e.GET("/ping", func(c echo.Context) error {

@@ -1,7 +1,7 @@
 import Fastify from 'fastify';
 
 const fastify = Fastify({
-  logger: true
+  logger: false
 });
 
 fastify.get('/ping', (req, reply) => {

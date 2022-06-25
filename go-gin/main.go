@@ -12,6 +12,7 @@ func init() {
 
 func main() {
 	r := gin.New()
+
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"message": "pong",

@@ -31,5 +31,5 @@ dependencies {
     implementation("io.ktor:ktor-serialization:$ktor_version")
 
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+    testImplementation("org.jetbrains.kotlin:kotlin-tests-junit:$kotlin_version")
 }
